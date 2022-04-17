@@ -1,7 +1,7 @@
 package com.junit.junittest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 //import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -26,5 +26,11 @@ public class RectangleTest {
     @DisplayName("Checking if Square")
     public void testIsSquare(){
         assertTrue(r.isSquare());
+    }
+
+    @Test
+    @DisplayName("Check assert null")
+    public void testassertNull(){
+        assertNotNull(r);
     }
 }
