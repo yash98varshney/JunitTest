@@ -38,6 +38,17 @@ public class RectangleTest {
 
 
 
+
+    /**
+     * Junit test to check  Exception 
+     * we have to make  Executable class Object 
+     * 
+     * Executable exec=()-> BMICalculator.isDietRecommende(h1,W1);
+     * assertThrows(ArthmeticException.class,exec);
+     */
+
+
+
 //Grouped assertions
 
 
